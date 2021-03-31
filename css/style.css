@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar class is used to modify the properties in the nav bar*/
+.navbarParent {
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.navbarParent a {
+  text-transform: uppercase;
+  padding: 15px;
+  color: white;
+}
+/* Section1Container is the class for the image that is displayed on load of page also considered to be a home page image or landing page image*/
+.section1Container > img {
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/* Section2Container is for the next part where a header, a paragraph and few images are displayed */
+
+.section2Container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+  }
+  
+  .section2Container div {
+    padding: 10px;
+  }
+  .section2Container img {
+    width: 10vw;
+    height: 23vh;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    margin-left: 7vw;
+    border-radius: 5px!important;
+    align-items: center;
+    justify-content: center;
+  }
+  .box1 {
+    flex: 1;
+  }
+  .box2 {
+    flex: 3;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .box2 h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .box3 {
+    flex: 1;
+  } 
+  
+
+
