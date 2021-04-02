@@ -1,34 +1,64 @@
-
-
-@media(max-width : 992px){
-
-    .navbarParent {
-        background-color: black;
-        width: 100vw;
-        height: 10vh;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-      }
-      .navbarParent a {
-        text-transform: uppercase;
-        padding: 10px;
-        color: white;
-      }
-      .section1Container img {
-        width: 100vw;
-        height: 50vh;
-      }
-      .section2Container img {
-        width: 70vw;
-        height: 40vh;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 5px;
-        align-content: center;
-      }
-
-
+@media (max-width: 992px) {
+  .navbarParent {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .navbarParent a {
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+  }
+  .section1Container img {
+    width: 100vw;
+    height: 50vh;
+  }
+  .section2Container img {
+    width: 70vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    align-content: center;
+  }
+  .section3Container {
+    background-color: black;
+    padding: 10px;
+    color: white;
+  }
+  .section3Container > h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .section3Container div {
+    background-color: white;
+    color: black;
+    border: 0.1px dotted black;
+    text-align: start;
+    padding: 0.5vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section3Container div label{
+    background-color: #f44336;
+    color: white;
+    /* margin: 1px; */
+    margin-left: 10vw;
+  }
+  .bookImage{
+    margin-top: 4%;
+    width: 100%;
+    height: 50%;
+  }
+  .caption{
+    margin-top: 4%;
+  }
+  .bookButton{
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
 }
-
-
